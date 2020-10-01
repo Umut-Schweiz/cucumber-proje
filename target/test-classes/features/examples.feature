@@ -1,4 +1,4 @@
-@teknolojikarama
+@teknolojikarama @amazon
 Feature: Amazon Birden Fazla Arama
   Scenario Outline: TC05_kullanici amazonda urun aramasi yapar
     Given kullanici amazon sayfasina gider

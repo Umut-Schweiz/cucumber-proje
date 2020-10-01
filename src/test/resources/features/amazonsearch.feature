@@ -1,4 +1,4 @@
-@urunarama
+@urunarama @amazon
 Feature: Amazon Arama
 
   Background: Oncesinde calisacak method

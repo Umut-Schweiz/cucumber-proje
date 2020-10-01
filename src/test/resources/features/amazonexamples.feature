@@ -1,4 +1,4 @@
-@birdenfazlaexample
+@birdenfazlaexample @amazon
 Feature: Amazonda Urun Arama
   Scenario Outline: TC07_kullanici amazonda dropdown ve aramakutusu kullanarak arama yapar
     Given kullanici "http://amazon.com" sayfasina gider

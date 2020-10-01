@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="24.659">
+<testcase classname="Koala Palace" name="TC12_kullanici iduser secmeden room reservation olusturur" time="23.956">
+<system-out><![CDATA[Given kullanici koalapalace admin sayfasina gider...........................passed
+And kullanici kullaniciadi ve sifresini girer...............................passed
+Then kullanici giris islemini gerceklestirir................................passed
+Given kullanici hotelroomreservation sayfasina gider........................passed
+And kullanici roomreservation idhotelroom bolumunde "Hilton" secer..........passed
+And kullanici roomreservation price bolumune "500" girer....................passed
+And kullanici roomreservation datestart bolumune "10/10/2020" girer.........passed
+And kullanici roomreservation dateend bolumune "10/17/2020" girer...........passed
+And kullanici roomreservation adultamaount bolumune "2" girer...............passed
+And kullanici roomreservation childrenamount bolumune "3" girer.............passed
+And kullanici roomreservation namesurname bolumune "Hamza Yılmaz" girer.....passed
+And kullanici roomreservation phone bolumune "0500600700" girer.............passed
+And kullanici roomreservation email bolumune "hamza@gmail.com" girer........passed
+And kullanici roomreservation notes bolumune "Testerlardan selam.." girer...passed
+And kullanici roomreservation save butonuna tiklar..........................passed
+Then kullanici roomreservation kayit isleminin basarisiz oldugunu assert eder.passed
+]]></system-out>
+</testcase>
+</testsuite>
